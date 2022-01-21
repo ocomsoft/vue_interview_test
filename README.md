@@ -13,21 +13,23 @@ This the Ocom Vue Test
 ```
 
 This will fire up a Test Server you can use as your API Server.
-This will have the following routes
+This will have the following routes:
 
-GET /library - Get all Libraries
-GET /library/:id - Get A Library by ID
-POST /library - Create a new Library - will create an new ID
-PUT /library/:id - Update the Library with the :id specified
-PATCH /library/:id - Update some fields in the Library by the :id
-DELETE /library/:id - Delete the Library
+Library
+- **GET /library** - Get all Libraries
+- **GET /library/:id** - Get A Library by ID
+- **POST /library** - Create a new Library - will create an new ID
+- **PUT /library/:id** - Update the Library with the :id specified
+- **PATCH /library/:id** - Update some fields in the Library by the :id
+- **DELETE /library/:id** - Delete the Library
 
-GET /project - Get all Projects
-GET /project/:id - Get A project by ID
-POST /project - Create a new project - will create an new ID
-PUT /project/:id - Update the project with the :id specified
-PATCH /project/:id - Update some fields in the project by the :id
-DELETE /project/:id - Delete the project
+Project
+- **GET /project** - Get all Projects
+- **GET /project/:id** - Get A project by ID
+- **POST /project** - Create a new project - will create an new ID
+- **PUT /project/:id** - Update the project with the :id specified
+- **PATCH /project/:id** - Update some fields in the project by the :id
+- **DELETE /project/:id** - Delete the project
 
 There are sample curl lines to TEST the api server and show how it works.
 
@@ -89,3 +91,23 @@ The form will have the following fields (the same above)
 The "rest server" will add a new ID for you which is a random number.
 
 The user needs to be able to Create a New Project Item, and return the list of Projects with the new Project included in the results.
+
+# Expectations
+When completing this task we expect to see the following
+- You use Bootstrap CSS
+ - Use Vue2
+ - Use VueX
+ - No Authentication is required as the test server doesn't support it :)
+  - We are to see how you would code this. We know it's not perfect and feature complete.
+
+# Documentation Test
+Please add a  file to the Project that has the following
+
+- Installation/Running Instructions (don't include running the json-server as above) so we can run git clone and follow the instructions to get the vue server running.
+- Tell us what you would do different if you had more time
+- Tell us what features you would add if you had more time
+
+
+
+
+Good Luck and Have Fun!!!
