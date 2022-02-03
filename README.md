@@ -5,11 +5,11 @@ This the Ocom Vue Test
 # Setup Backend Server
 
 - Clone this repository
-- Download the json-server from here <https://github.com/chanioxaris/json-server/releases/tag/v1.0.0>
+- Download the json-server from here <https://github.com/ocomsoft/json-server/releases> or <https://github.com/chanioxaris/json-server/releases>
 - Place the executable in this directory and then run
 
 ```bash
-./json-server start
+./json-server start -a
 ```
 
 This will fire up a Test Server you can use as your API Server.
