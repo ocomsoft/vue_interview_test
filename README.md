@@ -37,6 +37,8 @@ There are sample curl lines to TEST the api server and show how it works.
 
 I need a Vue 2 App using vue-cli that has the following screens
 
+Once you create the blank app - please commit that. Then commit the final project later on. 
+
 ## List Project Items
 
 A table of all the Projects.
