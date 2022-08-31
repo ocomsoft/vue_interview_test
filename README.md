@@ -12,7 +12,7 @@ This the Ocom Vue Test
 ./json-server start -a
 ```
 
-This will fire up a Test Server you can use as your API Server.
+This will start up a Test Server you can use as your API Server.
 This will have the following routes:
 
 Library
